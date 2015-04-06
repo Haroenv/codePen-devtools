@@ -1,2 +1,1 @@
-# codepenSponsorFree
 # codePen-devtools

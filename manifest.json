@@ -1,0 +1,16 @@
+{
+  "name": "codePen-devtools",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "http://codepen.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://codepen.io/*"],
+      "css": ["css/custom.css"],
+      "js": ["js/custom.js"]
+    }
+  ],
+  "manifest_version": 2
+}
